@@ -100,6 +100,8 @@ trait FormatsMessages
     {
         $source = $source ?: $this->customMessages;
 
+        dd('test');
+
         $keys = ["{$attribute}.{$lowerRule}", $lowerRule, $attribute];
 
         // First we will check for a custom message for an attribute specific rule
